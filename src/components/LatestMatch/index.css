@@ -1,0 +1,114 @@
+/* Write your CSS here */
+
+.latest-match-con {
+  margin-top: 24px;
+}
+.latest-match-heading {
+  color: #ffffff;
+  font-size: 16px;
+  font-family: 'Bree Serif';
+  display: block;
+}
+
+.latest-match-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #1e293b;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border-radius: 12px;
+}
+@media screen and (min-width: 768px) {
+  .latest-match-card {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    flex-direction: row;
+    justify-content: space-between;
+    display: flex;
+  }
+  .latest-match-logo-con {
+    width: 65%;
+    padding-left: 32px;
+    padding-right: 0px;
+  }
+  .team-details {
+    width: 48%;
+    align-self: flex-start;
+  }
+  .latest-match-competing-team {
+    font-size: 36px;
+  }
+  .latest-match-date {
+    font-size: 24px;
+  }
+  .match-details {
+    font-size: 16px;
+  }
+  .competing-team-logo {
+    max-width: 300px;
+    max-height: 300px;
+  }
+  hr {
+    display: none;
+  }
+  .innings-details {
+    width: 33%;
+    padding-left: 0px;
+    padding-right: 32px;
+    text-align: right;
+  }
+  .latest-match-details-label {
+    font-size: 18px;
+  }
+  .latest-match-details-value {
+    font-size: 14px;
+  }
+}
+.latest-match-logo-con {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.team-details {
+  width: 70%;
+}
+.latest-match-competing-team {
+  font-size: 20px;
+  color: #ffffff;
+  font-family: 'Bree Serif';
+}
+.latest-match-date {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 18px;
+}
+.match-details {
+  font-size: 12px;
+  color: #ffffff;
+  font-family: 'Bree Serif';
+}
+.competing-team-logo {
+  max-height: 60px;
+}
+hr {
+  border: 1px solid #475569;
+  width: 100%;
+}
+.innings-details {
+  width: 100%;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.latest-match-details-label {
+  color: #ffffff;
+  font-size: 14px;
+  font-family: 'Bree Serif';
+}
+.latest-match-details-value {
+  color: #ffffff;
+  font-size: 12px;
+  font-family: 'Bree Serif';
+}

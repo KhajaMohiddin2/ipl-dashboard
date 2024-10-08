@@ -1,0 +1,64 @@
+/* Write your CSS here */
+.home-con {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-sm-bg.png');
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+}
+
+.list-teams {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-left: 0px;
+}
+.home-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+}
+.ipl-logo {
+  width: 25px;
+  height: 40px;
+}
+@media screen and (min-width: 768px) {
+  .ipl-logo {
+    width: 60px;
+    height: 96px;
+  }
+  .loader {
+    font-size: 28px;
+  }
+  .ipl-heading {
+    font-size: 72px;
+    margin-left: 16px;
+    font-family: 'Bree Serif';
+  }
+  .teams-list-con {
+    width: 90%;
+    max-width: 1110px;
+  }
+  .home-con {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-lg-bg.png');
+  }
+}
+.ipl-heading {
+  font-size: 36px;
+  font-family: 'Bree Serif';
+  margin-left: 12px;
+  color: #ffffff;
+}
+.teams-list-con {
+  width: 90%;
+  max-width: 600px;
+}
